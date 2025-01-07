@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "todolist",            
+    "slug": "todolist",          
+    "version": "1.0.0",               
+    "orientation": "portrait",        
+    "icon": "./assets/snack-icon.png",   
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png", 
+      "resizeMode": "contain",        
+      "backgroundColor": "#ffffff"    
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0     
+    },
+    "assetBundlePatterns": [
+      "**/*"                          
+    ],
+    "ios": {
+      "supportsTablet": true,         
+      "bundleIdentifier": "com.todolist.package", 
+      "buildNumber": "1.0.0"         
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png", 
+        "backgroundColor": "#FFFFFF"   
+      },
+      "package": "com.todolist.package", 
+      "versionCode": 1                   
+    },
+    "web": {
+      "favicon": "./assets/favicon.png" 
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "scheme": "todolist-scheme",         
+    "extra": {
+      
+      "googleAuth": {
+        "expoClientId": "1016870477574-6s6o3ea1vqv1n3c2267navgis5gklo4p.apps.googleusercontent.com",        
+        "androidClientId": "1016870477574-3om0tpj825to8h1bd41fqq2lvfbocfa0.apps.googleusercontent.com",  
+        "iosClientId": "1016870477574-bpqg2uumnnoij0nao5cqqrqe20s436nh.apps.googleusercontent.com",          
+        "redirectUri": "https://auth.expo.io/@kyawkyawhtun/exp://u.expo.dev/933fd9c0-1666-11e7-afca-d980795c5824?runtime-version=exposdk%253A50.0.0&channel-name=production" 
+      }
+    }
+  }
+}
